@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "references": [
+    { "path": "./packages/types" },
+    { "path": "./packages/shared" },
+    { "path": "./packages/audio-engine" },
+    { "path": "./packages/mixer" },
+    { "path": "./packages/ui" },
+    { "path": "./packages/storage" },
+    { "path": "./packages/ai" },
+    { "path": "./packages/auth" },
+    { "path": "./packages/cloud" },
+    { "path": "./packages/frequencies" },
+    { "path": "./packages/presets" },
+    { "path": "./apps/web" }
+  ]
+}
